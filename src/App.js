@@ -1,9 +1,13 @@
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
-import HelloWorld from './screens/HelloWorld';
+import SearchResults from './screens/SearchResults';
+import Metro from './screens/Metro';
 const MainNavigator = createStackNavigator({
-  Hello: {
-    screen: HelloWorld,
+  SearchResults: {
+    screen: SearchResults,
+  },
+  MetroResult: {
+    screen: Metro,
   },
 });
 
